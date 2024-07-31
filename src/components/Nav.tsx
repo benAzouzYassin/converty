@@ -27,13 +27,17 @@ export default function Nav() {
       <span className="h-[40px] rounded-[1px] hidden md:block md:mx-[35px] w-[5px] bg-white/10  "></span>
       <ul className="text-[22px]  hidden md:flex gap-4 items-center md:gap-10">
         <li className=" active:scale-100 group transition-transform hover:cursor-pointer ">
-          <a href="#">
+          <a href="#" className="flex gap-2 items-center">
             <span className="md:block hidden">👋🏻</span> home{" "}
           </a>
           <div className="group-hover:w-3/4 opacity-70 h-[2px] mt-px rounded bg-white w-0 transition-all"></div>
         </li>
-        <li className=" active:scale-100 group transition-transform hover:cursor-pointer ">
-          <a href="https://yasseen.tech/" target="_blank">
+        <li className=" active:scale-100 group  transition-transform hover:cursor-pointer ">
+          <a
+            href="https://yasseen.tech/"
+            className="gap-2 flex items-center"
+            target="_blank"
+          >
             <span className="md:block hidden">👀</span> creator
           </a>
           <div className="group-hover:w-3/4 opacity-70 h-[2px] mt-px rounded bg-white w-0 transition-all"></div>
