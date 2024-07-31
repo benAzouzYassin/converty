@@ -3,8 +3,9 @@ import { MailIcon } from "lucide-react";
 export default function Nav() {
   return (
     <nav className="  mono-font  font-light flex items-center px-[90px] min-h-[90px] text-white">
-      <span className="flex gap-3 items-center text-[32px] hover-underline-animation hover:cursor-default font-medium">
+      <span className="flex flex-col text-[32px]  hover:cursor-default font-medium">
         Converty
+        <div className="w-1/2 h-[3px] opacity-70 bg-white "></div>
       </span>
       <div className="flex items-center gap-5 ml-auto">
         <a
@@ -25,13 +26,15 @@ export default function Nav() {
       </div>
       <span className="h-[40px] rounded-[1px] mx-[35px] w-[5px] bg-white/10  "></span>
       <ul className="text-[22px]  flex items-center gap-10">
-        <li className="hover:scale-105 active:scale-100 transition-transform hover:cursor-pointer hover:font-bold">
+        <li className=" active:scale-100 group transition-transform hover:cursor-pointer ">
           <a href="#">👋🏻 home </a>
+          <div className="group-hover:w-3/4 opacity-70 h-[2px] mt-px rounded bg-white w-0 transition-all"></div>
         </li>
-        <li className="hover:scale-105 active:scale-100 transition-transform hover:cursor-pointer hover:font-bold">
+        <li className=" active:scale-100 group transition-transform hover:cursor-pointer ">
           <a href="https://yasseen.tech/" target="_blank">
-            👀 about
+            👀 creator
           </a>
+          <div className="group-hover:w-3/4 opacity-70 h-[2px] mt-px rounded bg-white w-0 transition-all"></div>
         </li>
         {/* <li className="hover:scale-105 active:scale-100 transition-transform hover:cursor-pointer hover:font-bold">
           ☕ support

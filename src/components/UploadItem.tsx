@@ -32,6 +32,7 @@ export default function UploadItem(props: Props) {
 
     setConverted(true);
     setIsLoading(false);
+    toast.success("One image converted successfully.");
     setDownloadUrl(url);
   };
 
