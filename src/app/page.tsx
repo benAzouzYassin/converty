@@ -78,11 +78,11 @@ export default function App() {
 
   if (!isReady) return <Loading />;
   return (
-    <main className="moving-grid-background bg-[#0A0A0B] flex flex-col  min-h-[110vh]">
+    <main className="moving-grid-background overflow-x-hidden bg-[#0A0A0B] flex flex-col  min-h-[110vh]">
       <Nav />
-      <section className=" h-[550px] flex-col hover:cursor-pointer transition-all relative group w-[1150px] rounded-[12px] shadow-white/5 bg-neutral-950 items-center justify-center shadow-md  flex mx-auto mt-[50px] hover:bg-[#121212] border-2 border-white/10 ">
-        <ImageUpIcon className="stroke-neutral-700 group-active:scale-95  transition-transform w-[280px] h-[280px] mx-auto -mt-[50px] " />
-        <p className="w-full text-white text-[32px] mt-4 font-normal opacity-40  text-center ">
+      <section className=" pb-10 px-4 h-[300px] md:h-[550px] flex-col hover:cursor-pointer transition-all relative group sm:w-[90%] lg:w-[50%] xl:w-[1150px] rounded-[12px] shadow-white/5 bg-neutral-950 items-center justify-center shadow-md  flex mx-auto mt-[50px] hover:bg-[#121212] border-2 border-white/10 ">
+        <ImageUpIcon className="stroke-neutral-700 group-active:scale-95  transition-transform w-[120px] h-[120px] md:w-[280px] md:h-[280px] mx-auto -mt-[50px] " />
+        <p className="w-full text-white text-xl md:text-[32px] md:mt-4  font-normal opacity-40  text-center  translate-y-6 ">
           Click Here to upload your images
         </p>
         <input

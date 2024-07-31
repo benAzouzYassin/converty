@@ -2,15 +2,15 @@ import { Copyright, MailIcon } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="h-[60px] mt-4 flex items-center  text-white  mt-auto px-20 border-t-2 border-white/20">
-      <div className="flex opacity-80 font-normal font-mono items-center gap-3 text-[18px]">
+    <footer className="h-[60px]  flex items-center w-screen px-3  text-white  mt-auto lg:px-20 border-t-2 border-white/20 ">
+      <div className="flex opacity-80 font-normal font-mono items-center gap-2 md:gap-3 md:text-[18px]">
         <Copyright />
         Made with ❤ by
         <a href="https://yasseen.tech/" className="border-b  " target="_blank">
           yassine ben azouz
         </a>
       </div>
-      <div className="flex items-center gap-5 ml-auto">
+      <div className="md:flex items-center  hidden gap-5 ml-auto">
         <a
           href="https://github.com/benAzouzYassin"
           target="_blank"
