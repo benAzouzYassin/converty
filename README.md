@@ -1,4 +1,4 @@
-# Personal Portfolio 2.0
+# Converty
 
 Free and open-source image to webp converter.
 
