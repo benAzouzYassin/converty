@@ -77,6 +77,7 @@ export default function App() {
   };
 
   if (!isReady) return <Loading />;
+  return <Loading />;
   return (
     <main className="moving-grid-background overflow-x-hidden bg-[#0A0A0B] flex flex-col  min-h-[110vh]">
       <Nav />
